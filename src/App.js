@@ -9,6 +9,12 @@ function App() {
      <h1>Hello th!</h1>
      <Row title = " NETFLIX ORIGINALS" fetchUlr = {requests.fetchNetflixOriginals}/>
      <Row title = " Tending now" fetchUlr = {requests.fetchTrending}/>
+     <Row title = " Top rated" fetchUlr = {requests.fetchTopRated}/>
+     <Row title = " Action movies" fetchUlr = {requests.fetchActionMovies}/>
+     <Row title = " Comedy movies" fetchUlr = {requests.fetchComedyMovies}/>
+     <Row title = " Horror movies" fetchUlr = {requests.fetchHorrorMovies}/>
+     <Row title = " Romantic movies" fetchUlr = {requests.fetchRomanticMovies}/>
+     <Row title = " Documentarie movies" fetchUlr = {requests.fetchDocumentaries}/>
     </div>
   );
 }
