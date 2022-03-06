@@ -1,5 +1,11 @@
 .row_posters{
-    display:flex
+    display:flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    padding: 270px;
+}
+.row_posters::-webkit-scrollbar{
+    display : none
 }
 .row_poster{
     object-fit: contain;
@@ -9,5 +15,5 @@
     transition: transform 450ms;
 }
 .row_poster:hover {
-    
+    transform: scale(1.08);
 }
