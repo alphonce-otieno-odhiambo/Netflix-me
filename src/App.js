@@ -2,12 +2,14 @@
 import './App.css';
 import Row from './components/Row';
 import requests from './request';
+import Banner from './components/Banner'
 
 function App() {
   return (
     <div className="App">
      <h1>Hello th!</h1>
-     <Row title = " NETFLIX ORIGINALS" fetchUlr = {requests.fetchNetflixOriginals}/>
+     <Banner/>
+     <Row title = " NETFLIX ORIGINALS" fetchUlr = {requests.fetchNetflixOriginals} isLargeRow= {true}/>
      <Row title = " Tending now" fetchUlr = {requests.fetchTrending}/>
      <Row title = " Top rated" fetchUlr = {requests.fetchTopRated}/>
      <Row title = " Action movies" fetchUlr = {requests.fetchActionMovies}/>
