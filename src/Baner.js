@@ -1,7 +1,9 @@
-import React from 'react'
+import React, {useState, useEffect} from 'react'
 import './Baner.css'
 
 function Baner() {
+
+    const [movie, setMovie] = useState([])
 
     function trancate(string, n){
         return string?.length > n? string.substr(0, n-1) + '...' : string;
