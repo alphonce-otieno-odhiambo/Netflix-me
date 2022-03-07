@@ -2,6 +2,10 @@ import React from 'react'
 import './Baner.css'
 
 function Baner() {
+
+    function trancate(string, n){
+        return string?.length > n? string.substr(0, n-1) + '...' : string;
+    }
   return (
     <header className='baner' style={{
         backgroundSize: 'cover',
@@ -15,7 +19,9 @@ function Baner() {
                 <button className='baner_btn'>My List</button>
             </div>
             <div className='baner_discrp'>
-                This is a test description for the banner 
+                {trancate(
+                `This is a test description for the banner
+                This is a test description for the bannerThis is a test description for the bannerThis is a test description for the bannerThis is a test description for the bannerThis is a test description for the bannerThis is a test description for the bannerThis is a test description for the bannerThis is a test description for the bannervvThis is a test description for the bannerThis is a test description for the bannerThis is a test description for the banner`,150 )}
             </div>
         </div>
         <div className='baner_foot'></div>
