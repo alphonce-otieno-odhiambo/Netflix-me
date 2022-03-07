@@ -43,4 +43,12 @@
     padding-left: 2rem;
     padding-right: 2rem;
     margin-right: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    background-color: rgba(51, 51, 51, 0.5);
+}
+.baner_btn:hover{
+    color: black;
+    background-color: whitesmoke;
+    transition: all 0.2sj;
 }
