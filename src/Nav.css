@@ -1,12 +1,17 @@
 .nav_contents{
     display: flex;
     justify-content: space-between;
+    /* animation */
+
+    transition-timing-function: ease-in;
+    transition: all, 0.5s;
 }
 .nav{
     position: fixed;
     padding: 20px;
     top: 0%;
     width: 100%;
+    z-index: 1;
 }
 
 .nav_logo{
@@ -29,3 +34,4 @@
 .nav_black{
     background-color: black;
 }
+
