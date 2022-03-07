@@ -3,7 +3,7 @@ import './Nav.css'
 
 function Nav() {
 
-    const [show, hundleShow] = useState(true)
+    const [show, hundleShow] = useState(false)
     const transitioncNavbar = () => {
         if(window.scroll > 100){
             hundleShow(true)

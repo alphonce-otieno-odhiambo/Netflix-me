@@ -18,6 +18,7 @@ function Baner() {
                 This is a test description for the banner 
             </div>
         </div>
+        <div className='baner_foot'></div>
     </header> 
         
    

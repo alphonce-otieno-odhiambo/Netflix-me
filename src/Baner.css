@@ -4,3 +4,15 @@
     object-fit: contain;
     color: white;
 }
+
+.baner_contents{
+    margin-left: 20px;
+    float: left;
+    padding-top: 140px;
+    height: 190px;
+}
+.baner_title{
+    font-size: 3rem;
+    font-weight: 800px;
+    padding-bottom: 0.3rem;
+}
