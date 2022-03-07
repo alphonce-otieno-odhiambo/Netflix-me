@@ -40,9 +40,8 @@ function Baner() {
                 <button className='baner_btn'>My List</button>
             </div>
             <div className='baner_discrp'>
-                {trancate(
-                `This is a test description for the banner
-                This is a test description for the bannerThis is a test description for the bannerThis is a test description for the bannerThis is a test description for the bannerThis is a test description for the bannerThis is a test description for the bannerThis is a test description for the bannerThis is a test description for the bannervvThis is a test description for the bannerThis is a test description for the bannerThis is a test description for the banner`,150 )}
+                {trancate(movie?.overview
+                ,150 )}
             </div>
         </div>
         <div className='baner_foot'></div>
