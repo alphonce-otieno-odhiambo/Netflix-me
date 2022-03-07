@@ -34,7 +34,7 @@ function Baner() {
         backgroundPosition: 'center',
     } }>
         <div className='baner_contents'>
-            <h1 className='baner_title'>MOVIE NAME</h1>
+            <h1 className='baner_title'>{movie?.title || movie?.name || movie?.original_name} </h1>
             <div className='baner_buttons'>
                 <button className='baner_btn'>Play</button>
                 <button className='baner_btn'>My List</button>
